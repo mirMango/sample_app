@@ -1,4 +1,4 @@
-PAGE 200
+PAGE 250
 
 
 # Ruby on Rails Tutorial sample application
