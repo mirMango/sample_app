@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "3.2.2"
 
 gem "rails", "~> 7.1.2"
+gem "bootstrap-sass"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
 gem "importmap-rails"

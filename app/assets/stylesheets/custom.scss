@@ -1,0 +1,111 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Universal Styles */
+body {
+    padding-top: 60px; /* Add top padding to body */
+}
+
+section {
+    overflow: auto; /* Ensure sections can scroll if content overflows */
+}
+
+textarea {
+    resize: vertical; /* Allow textareas to be resized vertically only */
+}
+
+/* Centering Content */
+.center {
+    text-align: center; /* Center text for elements with this class */
+}
+
+.center h1 {
+    margin-bottom: 10px; /* Add bottom margin to h1 elements within .center */
+}
+
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1; /* Uniform line-height for all headings */
+}
+
+h1 {
+    font-size: 3em; /* Large font size for h1 */
+    letter-spacing: -2px; /* Negative letter spacing for tighter text */
+    margin-bottom: 30px; /* Margin below the heading */
+    text-align: center; /* Centered text */
+}
+
+$light-gray: #777;
+
+
+h2 {
+    font-size: 1.2em; /* Font size for h2 */
+    letter-spacing: -1px; /* Negative letter spacing */
+    margin-bottom: 30px; /* Margin below the heading */
+    text-align: center; /* Centered text */
+    font-weight: normal; /* Normal font weight */
+    color: $light-gray; /* Light gray color */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+
+/* Header */
+#logo {
+    float: left;              /* Align logo to the left */
+    margin-right: 10px;       /* Space to the right of the logo */
+    font-size: 1.7em;         /* Font size for the logo */
+    color: $light-gray;             /* White color for the logo */
+    text-transform: uppercase;/* Uppercase text for the logo */
+    letter-spacing: -1px;     /* Tight letter spacing */
+    padding-top: 9px;         /* Top padding */
+    font-weight: bold;        /* Bold font weight */
+}
+
+#logo:hover {
+    color: $light-gray;              /* Keep the logo white on hover */
+    text-decoration: none;    /* Remove underline on hover */
+}
+
+$white: #eaeaea;
+
+/* Footer */
+footer {
+    margin-top: 45px;        /* Space above the footer */
+    padding-top: 5px;        /* Padding at the top of the footer */
+    border-top: 1px $white;  /* Top border for the footer */
+    color: $light-gray;           /* Default text color in the footer */
+}
+
+$gray: #555;
+
+footer a {
+    color: $gray;             /* Default link color in the footer */
+}
+
+$dark-gray: #222;
+
+footer a:hover {
+    color: $dark-gray;             /* Link color on hover */
+}
+
+footer small {
+    float: left;             /* Align small text to the left */
+}
+
+footer ul {
+    float: right;            /* Align the unordered list to the right */
+    list-style: none;        /* Remove bullet points */
+}
+
+footer ul li {
+    float: left;             /* Align list items to the left */
+    margin-left: 15px;       /* Space between list items */
+}
+
+
