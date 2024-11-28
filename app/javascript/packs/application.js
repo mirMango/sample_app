@@ -1,11 +1,10 @@
-import { Application } from "@hotwired/stimulus";
 import 'bootstrap';
-import "jquery";
-import "popper.js";
+import 'jquery';
+import 'popper.js';
+import { Application } from "@hotwired/stimulus";
 
 const application = Application.start();
 
-// Configure Stimulus development experience
 application.debug = false;
 window.Stimulus = application;
 

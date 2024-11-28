@@ -4,6 +4,7 @@ ruby "3.2.2"
 
 gem "rails", "~> 7.1.2"
 gem "bcrypt"
+gem 'webpacker'
 gem "bootstrap-sass"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
