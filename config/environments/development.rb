@@ -77,4 +77,13 @@ Rails.application.configure do
   # Allow connections to local server.
   config.hosts.clear
 
+
+
+
+  config.action_mailer.raise_delivery_errors = false
+  host = 'localhost:3000' # Use your local dev host and port
+
+  # Use this if developing on localhost.
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+
 end
