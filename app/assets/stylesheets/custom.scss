@@ -218,3 +218,23 @@ input, textarea, select, .uneditable-input {
     margin-left: 0;
   }
   
+
+//* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: block;  /* Changed to block to stack vertically */
+    overflow: auto;
+    padding: 20px 0;  /* Increased padding for more space between users */
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 20px;  /* Increased margin for more space between gravatar and name */
+  flex-shrink: 0;
+}

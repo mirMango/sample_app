@@ -4,6 +4,9 @@ ruby "3.2.2"
 
 gem "rails", "~> 7.1.2"
 gem "bcrypt"
+gem "faker"
+gem 'will_paginate', '~> 3.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 gem "webpacker"
 gem "bootstrap-sass"
 gem "sprockets-rails"
